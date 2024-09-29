@@ -23,6 +23,8 @@ git push -u origin master
 
 !-------Some Additional Commands-------!
 
+gunicorn app:app
+pip install -r requirements.txt
 pip install flask
 pip install gunicorn
 pip freeze >> requirements.txt
